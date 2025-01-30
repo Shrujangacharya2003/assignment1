@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function Futuresection() {
   return (
     <>
-      <div className='finalcontainer' >
+      <div className='finalcontainer'>
         <div className="container">
           <header className='C-header'>
             <h1>Focus on What – Truly Matters</h1>
@@ -13,18 +13,26 @@ function Futuresection() {
           </header>
           <main>
             <div className="image-set">
-              <img  className='imageset-img' src="src/assets/Secfurure.1[1].png" alt="" />
-              
-              
-          
-            <img  className="family-png"src="src/assets/family.png" alt="" />
-            <img className='travel-img'  src="src/assets/travel.png" alt="" />
-            <img className='invest-img'  src="src/assets/invest.png" alt="" />
-            
+              <img className='imageset-img' src="src/assets/Secfurure.1[1].png" alt="" />
+            </div>
+            <div className="banner">
+              <img className="icon-banner" src="src/assets/bargragh.png" alt="Bar Chart" />
+              <span className="text-banner"><span className="highlight-banner">More Time to Upskill</span>: Invest in yourself</span>
+              <img className="arrow" src="src/assets/grow-up.png" alt="Up Arrow" />
+            </div>
+            <div className="banner-family">
+              <img className="icon-family" src="src/assets/home-icon.png" alt="Bar Chart" />
+              <span className="text-family"><span className="highlight-family">Spend More Time with Family</span>: Prioritize what matters</span>
+              <img className="arrow-family" src="src/assets/grow-up.png" alt="Up Arrow" />
+            </div>
+            <div className="banner-vacation">
+              <img className="icon-vacation" src="src/assets/flight.png" alt="Bar Chart" />
+              <span className="text-vacation"><span className="highlight-vacation">Achieve Your Dream Vacation</span>: Make it a reality</span>
+              <img className="arrow-vacation" src="src/assets/grow-up.png" alt="Up Arrow" />
             </div>
           </main>
-          <footer className=' shrujan' >
-         <button className='trynow-btn'>Try NOW <img src="src/assets/top-right.png" ></img></button>
+          <footer className='shrujan'>
+            <button className='trynow-btn'>Try NOW <img src="src/assets/top-right.png" alt="Top Right Arrow" /></button>
           </footer>
         </div>
       </div>
@@ -33,4 +41,3 @@ function Futuresection() {
 }
 
 export default Futuresection;
-

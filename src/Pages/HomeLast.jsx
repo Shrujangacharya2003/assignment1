@@ -12,16 +12,33 @@ function HomeLast() {
       <span className="highlight"> smarter tools</span> to grow your wealth effortlessly.
     </p>
   </section>
-  
-        <img className='homelast-img' src="src/assets/focus2masterimg.png" alt="" />
-       
-        <footer className=' shrujan' >
-         <button className='trynow-btn'>Try NOW <img src="src/assets/top-right.png" ></img></button>
-          </footer>
-        
-      
+  <div class="logo-IV">
+        <span class="invest">INVEST</span> <span class="vidhi">VIDHI</span>
     </div>
   
+        <div className="invest-vidhi-outer">
+          <img className='focusframe' src="src/assets/focusframe.png" alt="" />
+          </div>
+         
+         <div className="puzzel">
+          <img  className='puzzel-img'src="src/assets/export1.png" alt="" />
+         </div>
+         <div className="bull">
+         <img className='bull-img' src="src/assets/topstock.png" alt="" />
+         </div>
+         <div className="money-tree">
+          <img  className="money-tree-img" src="src/assets/money-tree.png" alt="" />
+         </div>
+         <div className="bull-banner">
+         
+              <img className="bull-banner-img" src="src/assets/flight.png" alt="Bar Chart" />
+              <span className="text-bull"><span className="highlight-bull">Achieve Your Dream Vacation</span>: </span>
+              <img className="arrow-bull" src="src/assets/grow-up.png" alt="Up Arrow" />
+            </div>
+           
+      
+   
+          </div>
   )
 }
 

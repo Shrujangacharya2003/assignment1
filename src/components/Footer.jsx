@@ -8,8 +8,8 @@ const Footer = () => {
       <div className="footmain">
       <div className="main">
       <div className="footer-content">
-        <li>Home </li><br />
-        <li>About </li><br />
+           <a id="footer-home" href="/">  <li>Home</li></a><br />
+           <a  id='footer-home' href="/about"><li>About </li> </a><br />
         <li> Our Team </li>
         </div>
         <div className="footer-content2">
